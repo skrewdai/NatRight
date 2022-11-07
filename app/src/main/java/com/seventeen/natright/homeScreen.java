@@ -9,6 +9,9 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Toast;
 
+import com.google.android.material.bottomnavigation.BottomNavigationItemView;
+import com.google.android.material.bottomnavigation.BottomNavigationView;
+
 import java.util.ArrayList;
 
 public class homeScreen extends AppCompatActivity implements recyclerViewInterface{
@@ -30,6 +33,30 @@ public class homeScreen extends AppCompatActivity implements recyclerViewInterfa
         sec_Adapter adapter = new sec_Adapter(this, sectionModels, this);
         recyclerView.setAdapter(adapter);
         recyclerView.setLayoutManager(new LinearLayoutManager(this));
+
+        BottomNavigationView bottomNavigationView = (BottomNavigationView) findViewById(R.id.bottomNavigationView);
+
+        bottomNavigationView.setOnNavigationItemSelectedListener((item -> {
+            switch (item.getItemId())
+            {
+                case R.id.nav_Rights:
+                    startActivity(new Intent(getApplicationContext(), homeScreen.class));
+                    overridePendingTransition(0,0);
+                    return true;
+                case R.id.nav_Organization:
+                    startActivity(new Intent(getApplicationContext(), organizationScreen.class));
+                    overridePendingTransition(R.anim.slide_in_right,
+                            R.anim.slide_out_left);
+                    return true;
+
+                case R.id.nav_Information:
+                    startActivity(new Intent(getApplicationContext(), infoScreen.class));
+                    overridePendingTransition(R.anim.slide_in_right,
+                            R.anim.slide_out_left);
+                    return true;
+            }
+            return false;
+        }));
     }
 
     private void setupSection_Model() {
@@ -54,10 +81,12 @@ public class homeScreen extends AppCompatActivity implements recyclerViewInterfa
                 startActivity(intent1);
                 break;
         }
-
-
     }
-
-
-
+    @Override
+    public void onBackPressed()
+    {
+        super.onBackPressed();
+        overridePendingTransition(R.anim.slide_in_left,
+                R.anim.slide_out_right);
+    }
 }

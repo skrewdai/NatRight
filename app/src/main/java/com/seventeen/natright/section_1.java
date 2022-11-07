@@ -11,13 +11,20 @@ import android.widget.ImageView;
 import android.view.View.OnClickListener;
 import android.widget.Toolbar;
 
+import com.google.android.material.bottomnavigation.BottomNavigationView;
+
 public class section_1 extends AppCompatActivity {
+
+
 
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_section1);
+
+        Button button3;
+
 
         View toolbar = findViewById(R.id.topToolbar);
         toolbar.setOnClickListener(new View.OnClickListener() {
@@ -26,12 +33,23 @@ public class section_1 extends AppCompatActivity {
                 toHomeScreen();
             }
         });
+
+        button3 = findViewById(R.id.button3);
+        button3.setOnClickListener(new OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(section_1.this, law_base1.class));
+            }
+        });
+
     }
 
     public void toHomeScreen() {
         Intent i = new Intent (this, homeScreen.class);
         startActivity(i);
     }
+
+
 
 
 }

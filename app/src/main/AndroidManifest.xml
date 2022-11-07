@@ -14,6 +14,15 @@
         android:theme="@style/Theme.NatRight"
         tools:targetApi="26">
         <activity
+            android:name=".law_base1"
+            android:exported="false" />
+        <activity
+            android:name=".infoScreen"
+            android:exported="false" />
+        <activity
+            android:name=".organizationScreen"
+            android:exported="false" />
+        <activity
             android:name=".law_base_model"
             android:exported="false" />
         <activity

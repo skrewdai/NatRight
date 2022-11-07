@@ -1,17 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
     <item
-        android:id="@+id/item1"
+        android:id="@+id/nav_Rights"
         android:title="@string/menu_List"
-        android:icon="@drawable/icon_list" />
+        android:icon="@drawable/icon_list"
+        android:color="#FFFFFF"/>
 
     <item
-        android:id="@+id/item2"
+        android:id="@+id/nav_Organization"
         android:title="@string/menu_Organization"
-        android:icon="@drawable/icon_organization" />
+        android:icon="@drawable/icon_organization"
+        android:color="#FFFFFF"/>
 
     <item
-        android:id="@+id/item3"
+        android:id="@+id/nav_Information"
         android:title="@string/menu_Info"
-        android:icon="@drawable/icon_info" />
+        android:icon="@drawable/icon_info"
+        android:color="#FFFFFF"/>
+
+    android:state_checked="true"
 </menu>
