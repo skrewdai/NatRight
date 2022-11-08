@@ -26,6 +26,29 @@ public class section_1 extends AppCompatActivity {
         Button button3;
 
 
+        BottomNavigationView bottomNavigationView = (BottomNavigationView) findViewById(R.id.bottomNavigationView);
+
+        bottomNavigationView.setOnNavigationItemSelectedListener((item -> {
+            switch (item.getItemId())
+            {
+                case R.id.nav_Rights:
+                    startActivity(new Intent(getApplicationContext(), homeScreen.class));
+                    overridePendingTransition(0,0);
+                    return true;
+                case R.id.nav_Organization:
+                    startActivity(new Intent(getApplicationContext(), organizationScreen.class));
+                    overridePendingTransition(R.anim.slide_in_right,
+                            R.anim.slide_out_left);
+                    return true;
+
+                case R.id.nav_Information:
+                    startActivity(new Intent(getApplicationContext(), infoScreen.class));
+                    overridePendingTransition(R.anim.slide_in_right,
+                            R.anim.slide_out_left);
+                    return true;
+            }
+            return false;
+        }));
         View toolbar = findViewById(R.id.topToolbar);
         toolbar.setOnClickListener(new View.OnClickListener() {
             @Override
