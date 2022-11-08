@@ -14,7 +14,7 @@ import com.google.android.material.bottomnavigation.BottomNavigationView;
 
 import java.util.ArrayList;
 
-public class homeScreen extends AppCompatActivity implements recyclerViewInterface{
+public class homeScreen extends AppCompatActivity implements recyclerViewInterface {
 
     ArrayList<section_model> sectionModels = new ArrayList<>();
     int[] sectionImages = {R.drawable.sec1, R.drawable.sec2, R.drawable.sec3, R.drawable.sec4,
@@ -37,22 +37,19 @@ public class homeScreen extends AppCompatActivity implements recyclerViewInterfa
         BottomNavigationView bottomNavigationView = (BottomNavigationView) findViewById(R.id.bottomNavigationView);
 
         bottomNavigationView.setOnNavigationItemSelectedListener((item -> {
-            switch (item.getItemId())
-            {
+            switch (item.getItemId()) {
                 case R.id.nav_Rights:
                     startActivity(new Intent(getApplicationContext(), homeScreen.class));
-                    overridePendingTransition(0,0);
+                    overridePendingTransition(0, 0);
                     return true;
                 case R.id.nav_Organization:
                     startActivity(new Intent(getApplicationContext(), organizationScreen.class));
-                    overridePendingTransition(R.anim.slide_in_right,
-                            R.anim.slide_out_left);
+                    overridePendingTransition(R.anim.slide_out_right, R.anim.slide_in_left);
                     return true;
 
                 case R.id.nav_Information:
                     startActivity(new Intent(getApplicationContext(), infoScreen.class));
-                    overridePendingTransition(R.anim.slide_in_right,
-                            R.anim.slide_out_left);
+                    overridePendingTransition(R.anim.lefttoright, R.anim.righttoleft);
                     return true;
             }
             return false;
@@ -70,7 +67,6 @@ public class homeScreen extends AppCompatActivity implements recyclerViewInterfa
     @Override
     public void onItemClick(int position) {
         int positionVal = position;
-        Toast.makeText(homeScreen.this, "Position is: "+positionVal, Toast.LENGTH_SHORT).show();
         switch (positionVal) {
             case 0:
                 Intent intent = new Intent(homeScreen.this, section_1.class);
@@ -81,12 +77,5 @@ public class homeScreen extends AppCompatActivity implements recyclerViewInterfa
                 startActivity(intent1);
                 break;
         }
-    }
-    @Override
-    public void onBackPressed()
-    {
-        super.onBackPressed();
-        overridePendingTransition(R.anim.slide_in_left,
-                R.anim.slide_out_right);
     }
 }
