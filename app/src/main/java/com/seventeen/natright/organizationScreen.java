@@ -28,18 +28,16 @@ public class organizationScreen extends AppCompatActivity {
                 switch (item.getItemId()) {
                     case R.id.nav_Rights:
                         startActivity(new Intent(getApplicationContext(), homeScreen.class));
-                        overridePendingTransition(R.anim.slide_in_left,
-                                R.anim.slide_out_right);
+                        overridePendingTransition(0, 0);
                         return true;
                     case R.id.nav_Organization:
                         startActivity(new Intent(getApplicationContext(), organizationScreen.class));
-                        overridePendingTransition(0,0);
+                        overridePendingTransition(R.anim.righttoleft, R.anim.lefttoright);
                         return true;
 
                     case R.id.nav_Information:
                         startActivity(new Intent(getApplicationContext(), infoScreen.class));
-                        overridePendingTransition(R.anim.slide_in_right,
-                                R.anim.slide_out_left);
+                        overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_left);
                         return true;
                 }
 
