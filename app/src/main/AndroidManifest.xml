@@ -14,16 +14,73 @@
         android:theme="@style/Theme.NatRight"
         tools:targetApi="26">
         <activity
-            android:name=".law_base1"
+            android:name=".section_22"
+            android:exported="false" />
+        <activity
+            android:name=".section_21"
+            android:exported="false" />
+        <activity
+            android:name=".section_20"
+            android:exported="false" />
+        <activity
+            android:name=".section_19"
+            android:exported="false" />
+        <activity
+            android:name=".section_18"
+            android:exported="false" />
+        <activity
+            android:name=".section_17"
+            android:exported="false" />
+        <activity
+            android:name=".section_16"
+            android:exported="false" />
+        <activity
+            android:name=".section_15"
+            android:exported="false" />
+        <activity
+            android:name=".section_14"
+            android:exported="false" />
+        <activity
+            android:name=".section_13"
+            android:exported="false" />
+        <activity
+            android:name=".section_12"
+            android:exported="false" />
+        <activity
+            android:name=".section_11"
+            android:exported="false" />
+        <activity
+            android:name=".section_10"
+            android:exported="false" />
+        <activity
+            android:name=".section_9"
+            android:exported="false" />
+        <activity
+            android:name=".section_8"
+            android:exported="false" />
+        <activity
+            android:name=".section_7"
+            android:exported="false" />
+        <activity
+            android:name=".section_6"
+            android:exported="false" />
+        <activity
+            android:name=".section_5"
+            android:exported="false" />
+        <activity
+            android:name=".section_4"
+            android:exported="false" />
+        <activity
+            android:name=".section_3"
+            android:exported="false" />
+        <activity
+            android:name=".law_sec1_1"
             android:exported="false" />
         <activity
             android:name=".infoScreen"
             android:exported="false" />
         <activity
             android:name=".organizationScreen"
-            android:exported="false" />
-        <activity
-            android:name=".law_base_model"
             android:exported="false" />
         <activity
             android:name=".section_2"

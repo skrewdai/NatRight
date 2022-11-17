@@ -9,14 +9,17 @@ import android.os.Bundle;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
+import android.view.View.OnClickListener;
 
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
-public class section_2 extends AppCompatActivity {
+public class section_6 extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_section2);
+        setContentView(R.layout.activity_section6);
+
+        Button button3;
 
         BottomNavigationView bottomNavigationView;
         bottomNavigationView = findViewById(R.id.bottomNavigationView);
@@ -46,15 +49,13 @@ public class section_2 extends AppCompatActivity {
         View toolbar = findViewById(R.id.topToolbar);
         toolbar.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onClick(View v) {
-                toHomeScreen();
-            }
+            public void onClick(View v) { toHomeScreen(); }
         });
 
-        Button button = (Button)findViewById(R.id.button2);
-        button.setOnClickListener(new View.OnClickListener() {
+        button3 = findViewById(R.id.button3);
+        button3.setOnClickListener(new OnClickListener() {
             @Override
-            public void onClick(View v) { toLaw_base_model();}
+            public void onClick(View v) { toLaw1(); }
         });
     }
 
@@ -64,7 +65,7 @@ public class section_2 extends AppCompatActivity {
         startActivity(intent, options.toBundle());
     }
 
-    public void toLaw_base_model() {
+    public void toLaw1() {
         ActivityOptions options = ActivityOptions.makeSceneTransitionAnimation(this);
         Intent intent = new Intent(getApplicationContext(), law_sec1_1.class);
         startActivity(intent, options.toBundle());

@@ -2,6 +2,7 @@ package com.seventeen.natright;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.app.ActivityOptions;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
@@ -18,12 +19,13 @@ public class introScreen extends AppCompatActivity {
         Button button = (Button)findViewById(R.id.button);
         button.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onClick(View v) { toHomeScreen();}
+            public void onClick(View v) { toHomeScreen(); }
         });
     }
 
     public void toHomeScreen() {
-        Intent i = new Intent (this, homeScreen.class);
-        startActivity(i);
+        ActivityOptions options = ActivityOptions.makeSceneTransitionAnimation(this);
+        Intent intent = new Intent(getApplicationContext(), homeScreen.class);
+        startActivity(intent, options.toBundle());
     }
 }

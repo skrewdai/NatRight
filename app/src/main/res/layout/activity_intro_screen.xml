@@ -31,6 +31,7 @@
             android:layout_height="wrap_content"
             android:layout_marginBottom="8dp"
             android:text="@string/intro_Description"
+            android:justificationMode="inter_word"
             android:textAlignment="viewStart" />
 
         <Button
@@ -39,7 +40,6 @@
             android:layout_height="wrap_content"
             android:backgroundTint="#01a0e1"
             android:text="Button"
-            android:transitionName="go"
-            android:onClick="go"/>
+            android:transitionName="go" />
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

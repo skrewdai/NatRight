@@ -53,9 +53,10 @@
         describing the place to be searched and the persons or things to be seized. </string>
 
     <string name="sec3">Section 3</string>
-    <string name="sec3_detail_1">(1) The privacy of communication and correspondence shall be inviolable except upon lawful order of the court, or when public
-        safety or order requires otherwise, as prescribed by law.</string>
-    <string name="sec3_detail_2">(2) Any evidence obtained in violation of this or the preceding section shall be inadmissible for any purpose in any
+    <string name="sec3_detail">
+        (1) The privacy of communication and correspondence shall be inviolable except upon lawful order of the court, or when public
+        safety or order requires otherwise, as prescribed by law.
+        \n\n2) Any evidence obtained in violation of this or the preceding section shall be inadmissible for any purpose in any
         proceeding.</string>
 
     <string name="sec4">Section 4</string>
@@ -92,14 +93,15 @@
         poverty.</string>
 
     <string name="sec12">Section 12</string>
-    <string name="sec12_detail_1">(1) Any person under investigation for the commission of an offense shall have the right to be informed of his right to remain
+    <string name="sec12_detail">
+        (1) Any person under investigation for the commission of an offense shall have the right to be informed of his right to remain
         silent and to have competent and independent counsel preferably of his own choice. If the person cannot afford the services of counsel, he must be provided
-        with one. These rights cannot be waived except in writing and in the presence of counsel.</string>
-    <string name="sec12_detail_2">(2) No torture, force, violence, threat, intimidation, or any other means which vitiate the free will shall be used against him.
-        Secret detention places, solitary, incommunicado, or other similar forms of detention are prohibited.</string>
-    <string name="sec12_detail_3">(3) Any confession or admission obtained in violation of this or Section 17 hereof shall be inadmissible in evidence against
-        him.</string>
-    <string name="sec12_detail_4">(4) The law shall provide for penal and civil sanctions for violations of this section as well as compensation to and rehabilitation
+        with one. These rights cannot be waived except in writing and in the presence of counsel.
+        \n\n(2) No torture, force, violence, threat, intimidation, or any other means which vitiate the free will shall be used against him.
+        Secret detention places, solitary, incommunicado, or other similar forms of detention are prohibited.
+        \n\n(3) Any confession or admission obtained in violation of this or Section 17 hereof shall be inadmissible in evidence against
+        him.
+        \n\n(4) The law shall provide for penal and civil sanctions for violations of this section as well as compensation to and rehabilitation
         of victims of torture or similar practices, and their families.</string>
 
     <string name="sec13">Section 13</string>
@@ -108,8 +110,9 @@
         the writ of habeas corpus is suspended. Excessive bail shall not be required.</string>
 
     <string name="sec14">Section 14</string>
-    <string name="sec14_detail_1">(1) No person shall be held to answer for a criminal offense without due process of law.</string>
-    <string name="sec14_detail_2">(2) In all criminal prosecutions, the accused shall be presumed innocent until the contrary is proved, and shall enjoy the right to be heard
+    <string name="sec14_detail">
+        (1) No person shall be held to answer for a criminal offense without due process of law.
+        \n\n(2) In all criminal prosecutions, the accused shall be presumed innocent until the contrary is proved, and shall enjoy the right to be heard
         by himself and counsel, to be informed of the nature and cause of the accusation against him, to have a speedy, impartial, and public trial, to meet the witnesses face
         to face, and to have compulsory process to secure the attendance of witnesses and the production of evidence in his behalf. However, after arraignment, trial may proceed
         notwithstanding the absence of the accused provided that he has been duly notified and his failure to appear is unjustifiable.</string>
@@ -125,13 +128,15 @@
     <string name="sec17_detail">No person shall be compelled to be a witness against himself.</string>
 
     <string name="sec18">Section 18</string>
-    <string name="sec18_detail_1">(1) No person shall be detained solely by reason of his political beliefs and aspirations.</string>
-    <string name="sec18_detail_2">(2) No involuntary servitude in any form shall exist except as a punishment for a crime whereof the party shall have been duly convicted.</string>
+    <string name="sec18_detail">
+        (1) No person shall be detained solely by reason of his political beliefs and aspirations.
+        \n\n(2) No involuntary servitude in any form shall exist except as a punishment for a crime whereof the party shall have been duly convicted.</string>
 
     <string name="sec19">Section 19</string>
-    <string name="sec19_detail_1">(1) Excessive fines shall not be imposed, nor cruel, degrading or inhuman punishment inflicted. Neither shall the death penalty be imposed, unless,
-        for compelling reasons involving heinous crimes, the Congress hereafter provides for it. Any death penalty already imposed shall be reduced to reclusion perpetua.</string>
-    <string name="sec19_detail_2">(2) The employment of physical, psychological, or degrading punishment against any prisoner or detainee or the use of substandard or inadequate
+    <string name="sec19_detail">
+        (1) Excessive fines shall not be imposed, nor cruel, degrading or inhuman punishment inflicted. Neither shall the death penalty be imposed, unless,
+        for compelling reasons involving heinous crimes, the Congress hereafter provides for it. Any death penalty already imposed shall be reduced to reclusion perpetua.
+        \n\n(2) The employment of physical, psychological, or degrading punishment against any prisoner or detainee or the use of substandard or inadequate
         penal facilities under subhuman conditions shall be dealt with by law.</string>
 
     <string name="sec20">Section 20</string>

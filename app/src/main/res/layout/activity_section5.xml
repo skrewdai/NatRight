@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".section_1">
+    tools:context=".section_5">
 
     <androidx.cardview.widget.CardView
         android:layout_width="match_parent"
@@ -60,7 +60,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:transitionName="sharedTransition_image"
-                        app:srcCompat="@drawable/sec1"
+                        app:srcCompat="@drawable/sec5"
                         app:tint="#FFFFFF" />
 
                     <TextView
@@ -68,7 +68,7 @@
                         style="@style/TextAppearance.Section.Header"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="@string/sec1"
+                        android:text="@string/sec5"
                         android:textAlignment="center"
                         android:textColor="#FFFFFF"
                         android:textStyle="bold"
@@ -90,7 +90,7 @@
                         android:layout_height="wrap_content"
                         android:paddingLeft="16dp"
                         android:paddingRight="16dp"
-                        android:text="@string/sec1_detail"
+                        android:text="@string/sec5_detail"
                         android:justificationMode="inter_word"
                         android:textColor="#FFFFFF" />
 

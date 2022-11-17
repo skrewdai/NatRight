@@ -80,6 +80,7 @@
                     android:paddingLeft="16dp"
                     android:paddingRight="16dp"
                     android:text="@string/sec1_detail"
+                    android:justificationMode="inter_word"
                     android:textColor="#FFFFFF" />
 
                 <View

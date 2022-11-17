@@ -12,11 +12,12 @@ import android.widget.Button;
 
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
-public class section_2 extends AppCompatActivity {
+public class law_sec1_1 extends AppCompatActivity {
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_section2);
+        setContentView(R.layout.activity_law_base1);
 
         BottomNavigationView bottomNavigationView;
         bottomNavigationView = findViewById(R.id.bottomNavigationView);
@@ -47,26 +48,14 @@ public class section_2 extends AppCompatActivity {
         toolbar.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                toHomeScreen();
+                toSection_1();
             }
         });
-
-        Button button = (Button)findViewById(R.id.button2);
-        button.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) { toLaw_base_model();}
-        });
     }
 
-    public void toHomeScreen() {
+    public void toSection_1() {
         ActivityOptions options = ActivityOptions.makeSceneTransitionAnimation(this);
-        Intent intent = new Intent(getApplicationContext(), homeScreen.class);
-        startActivity(intent, options.toBundle());
-    }
-
-    public void toLaw_base_model() {
-        ActivityOptions options = ActivityOptions.makeSceneTransitionAnimation(this);
-        Intent intent = new Intent(getApplicationContext(), law_sec1_1.class);
+        Intent intent = new Intent(getApplicationContext(), section_1.class);
         startActivity(intent, options.toBundle());
     }
 }
