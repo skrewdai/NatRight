@@ -4,36 +4,40 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/AndroidStudioProjects/NatRight/app/src/main/res/drawable/rounded.xml" value="0.1065" />
+        <entry key="..\:/AndroidStudioProjects/NatRight/app/src/main/res/drawable/rounded_ngo.xml" value="0.2445" />
         <entry key="..\:/AndroidStudioProjects/NatRight/app/src/main/res/drawable/rounded_top.xml" value="0.3105" />
         <entry key="..\:/AndroidStudioProjects/NatRight/app/src/main/res/layout/activity_home_screen.xml" value="0.13202247191011235" />
-        <entry key="..\:/AndroidStudioProjects/NatRight/app/src/main/res/layout/activity_info_screen.xml" value="0.36231884057971014" />
+        <entry key="..\:/AndroidStudioProjects/NatRight/app/src/main/res/layout/activity_info_screen.xml" value="0.2188365650969529" />
         <entry key="..\:/AndroidStudioProjects/NatRight/app/src/main/res/layout/activity_intro_screen.xml" value="0.33" />
-        <entry key="..\:/AndroidStudioProjects/NatRight/app/src/main/res/layout/activity_law_base1.xml" value="0.3111413043478261" />
+        <entry key="..\:/AndroidStudioProjects/NatRight/app/src/main/res/layout/activity_law_base1.xml" value="0.25" />
         <entry key="..\:/AndroidStudioProjects/NatRight/app/src/main/res/layout/activity_law_base_model.xml" value="0.25" />
+        <entry key="..\:/AndroidStudioProjects/NatRight/app/src/main/res/layout/activity_law_incomplete_fields.xml" value="0.17831813576494426" />
+        <entry key="..\:/AndroidStudioProjects/NatRight/app/src/main/res/layout/activity_law_model_complete.xml" value="0.17831813576494426" />
+        <entry key="..\:/AndroidStudioProjects/NatRight/app/src/main/res/layout/activity_law_model_incomplete.xml" value="0.36666666666666664" />
         <entry key="..\:/AndroidStudioProjects/NatRight/app/src/main/res/layout/activity_main.xml" value="0.33" />
-        <entry key="..\:/AndroidStudioProjects/NatRight/app/src/main/res/layout/activity_organization_screen.xml" value="0.33" />
-        <entry key="..\:/AndroidStudioProjects/NatRight/app/src/main/res/layout/activity_section1.xml" value="0.1" />
-        <entry key="..\:/AndroidStudioProjects/NatRight/app/src/main/res/layout/activity_section10.xml" value="0.17831813576494426" />
+        <entry key="..\:/AndroidStudioProjects/NatRight/app/src/main/res/layout/activity_organization_screen.xml" value="0.17721518987341772" />
+        <entry key="..\:/AndroidStudioProjects/NatRight/app/src/main/res/layout/activity_section1.xml" value="0.33" />
+        <entry key="..\:/AndroidStudioProjects/NatRight/app/src/main/res/layout/activity_section10.xml" value="0.2" />
         <entry key="..\:/AndroidStudioProjects/NatRight/app/src/main/res/layout/activity_section11.xml" value="0.17831813576494426" />
-        <entry key="..\:/AndroidStudioProjects/NatRight/app/src/main/res/layout/activity_section12.xml" value="0.17831813576494426" />
-        <entry key="..\:/AndroidStudioProjects/NatRight/app/src/main/res/layout/activity_section13.xml" value="0.17831813576494426" />
-        <entry key="..\:/AndroidStudioProjects/NatRight/app/src/main/res/layout/activity_section14.xml" value="0.17831813576494426" />
-        <entry key="..\:/AndroidStudioProjects/NatRight/app/src/main/res/layout/activity_section15.xml" value="0.17831813576494426" />
-        <entry key="..\:/AndroidStudioProjects/NatRight/app/src/main/res/layout/activity_section16.xml" value="0.17831813576494426" />
-        <entry key="..\:/AndroidStudioProjects/NatRight/app/src/main/res/layout/activity_section17.xml" value="0.17831813576494426" />
-        <entry key="..\:/AndroidStudioProjects/NatRight/app/src/main/res/layout/activity_section18.xml" value="0.15462962962962962" />
-        <entry key="..\:/AndroidStudioProjects/NatRight/app/src/main/res/layout/activity_section19.xml" value="0.15462962962962962" />
-        <entry key="..\:/AndroidStudioProjects/NatRight/app/src/main/res/layout/activity_section2.xml" value="0.2427536231884058" />
-        <entry key="..\:/AndroidStudioProjects/NatRight/app/src/main/res/layout/activity_section20.xml" value="0.15462962962962962" />
-        <entry key="..\:/AndroidStudioProjects/NatRight/app/src/main/res/layout/activity_section21.xml" value="0.15462962962962962" />
-        <entry key="..\:/AndroidStudioProjects/NatRight/app/src/main/res/layout/activity_section22.xml" value="0.15462962962962962" />
+        <entry key="..\:/AndroidStudioProjects/NatRight/app/src/main/res/layout/activity_section12.xml" value="0.2" />
+        <entry key="..\:/AndroidStudioProjects/NatRight/app/src/main/res/layout/activity_section13.xml" value="0.25" />
+        <entry key="..\:/AndroidStudioProjects/NatRight/app/src/main/res/layout/activity_section14.xml" value="0.33" />
+        <entry key="..\:/AndroidStudioProjects/NatRight/app/src/main/res/layout/activity_section15.xml" value="0.33" />
+        <entry key="..\:/AndroidStudioProjects/NatRight/app/src/main/res/layout/activity_section16.xml" value="0.33" />
+        <entry key="..\:/AndroidStudioProjects/NatRight/app/src/main/res/layout/activity_section17.xml" value="0.33" />
+        <entry key="..\:/AndroidStudioProjects/NatRight/app/src/main/res/layout/activity_section18.xml" value="0.33" />
+        <entry key="..\:/AndroidStudioProjects/NatRight/app/src/main/res/layout/activity_section19.xml" value="0.33" />
+        <entry key="..\:/AndroidStudioProjects/NatRight/app/src/main/res/layout/activity_section2.xml" value="0.25" />
+        <entry key="..\:/AndroidStudioProjects/NatRight/app/src/main/res/layout/activity_section20.xml" value="0.33" />
+        <entry key="..\:/AndroidStudioProjects/NatRight/app/src/main/res/layout/activity_section21.xml" value="0.33" />
+        <entry key="..\:/AndroidStudioProjects/NatRight/app/src/main/res/layout/activity_section22.xml" value="0.33" />
         <entry key="..\:/AndroidStudioProjects/NatRight/app/src/main/res/layout/activity_section3.xml" value="0.36666666666666664" />
-        <entry key="..\:/AndroidStudioProjects/NatRight/app/src/main/res/layout/activity_section4.xml" value="0.15462962962962962" />
-        <entry key="..\:/AndroidStudioProjects/NatRight/app/src/main/res/layout/activity_section5.xml" value="0.1" />
-        <entry key="..\:/AndroidStudioProjects/NatRight/app/src/main/res/layout/activity_section6.xml" value="0.1" />
+        <entry key="..\:/AndroidStudioProjects/NatRight/app/src/main/res/layout/activity_section4.xml" value="0.25" />
+        <entry key="..\:/AndroidStudioProjects/NatRight/app/src/main/res/layout/activity_section5.xml" value="0.25" />
+        <entry key="..\:/AndroidStudioProjects/NatRight/app/src/main/res/layout/activity_section6.xml" value="0.22" />
         <entry key="..\:/AndroidStudioProjects/NatRight/app/src/main/res/layout/activity_section7.xml" value="0.15462962962962962" />
         <entry key="..\:/AndroidStudioProjects/NatRight/app/src/main/res/layout/activity_section8.xml" value="0.15462962962962962" />
-        <entry key="..\:/AndroidStudioProjects/NatRight/app/src/main/res/layout/activity_section9.xml" value="0.15462962962962962" />
+        <entry key="..\:/AndroidStudioProjects/NatRight/app/src/main/res/layout/activity_section9.xml" value="0.33" />
         <entry key="..\:/AndroidStudioProjects/NatRight/app/src/main/res/layout/activity_splash_screen.xml" value="0.35260416666666666" />
         <entry key="..\:/AndroidStudioProjects/NatRight/app/src/main/res/layout/recyclerview_layout.xml" value="0.25" />
         <entry key="..\:/AndroidStudioProjects/NatRight/app/src/main/res/layout/top_app_bar_menu.xml" value="0.1" />

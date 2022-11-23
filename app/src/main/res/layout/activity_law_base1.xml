@@ -35,119 +35,126 @@
                 app:navigationIcon="@drawable/ic_baseline_arrow_back_24" />
 
 
-            <LinearLayout
+            <ScrollView
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_margin="8dp"
-                android:orientation="vertical"
-                android:textAlignment="center">
+                android:layout_height="wrap_content">
 
-                <View
-                    android:layout_width="match_parent"
-                    android:layout_height="1dp"
-                    android:layout_marginStart="16dp"
-                    android:layout_marginTop="8dp"
-                    android:layout_marginEnd="16dp"
-                    android:layout_marginBottom="8dp"
-                    android:background="@color/white" />
-
-                <TextView
-                    android:id="@+id/textView3"
-                    style="@style/TextAppearance.Section.Header"
+                <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="REPUBLIC ACT NO. 10173"
-                    android:textAlignment="center"
-                    android:textColor="#FFFFFF"
-                    android:textSize="24sp"
-                    android:textStyle="bold"
-                    android:transitionName="sharedTransition_text" />
+                    android:layout_margin="8dp"
+                    android:orientation="vertical"
+                    android:textAlignment="center">
 
-                <TextView
-                    android:id="@+id/textView4"
-                    style="@style/TextAppearance.Subtitle.Header"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="Data Privacy Act of 2012"
-                    android:textAlignment="center"
-                    android:textColor="#FFFFFF"
-                    android:transitionName="sharedTransition_text" />
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_marginStart="16dp"
+                        android:layout_marginTop="8dp"
+                        android:layout_marginEnd="16dp"
+                        android:layout_marginBottom="8dp"
+                        android:background="@color/white" />
 
-                <View
-                    android:layout_width="match_parent"
-                    android:layout_height="1dp"
-                    android:layout_marginStart="16dp"
-                    android:layout_marginTop="8dp"
-                    android:layout_marginEnd="16dp"
-                    android:layout_marginBottom="8dp"
-                    android:background="@color/white" />
+                    <TextView
+                        android:id="@+id/textView3"
+                        style="@style/TextAppearance.Section.Header"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/sec_1_law_ra_1"
+                        android:textAlignment="center"
+                        android:textColor="#FFFFFF"
+                        android:textSize="24sp"
+                        android:textStyle="bold"
+                        android:transitionName="sharedTransition_text" />
 
-                <TextView
-                    android:id="@+id/textView5"
-                    style="@style/TextAppearance.Section.Detail"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:paddingLeft="16dp"
-                    android:paddingRight="16dp"
-                    android:text="Chapter I"
-                    android:textAlignment="center"
-                    android:textColor="#FFFFFF" />
+                    <TextView
+                        android:id="@+id/textView4"
+                        style="@style/TextAppearance.Subtitle.Header"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/sec_1_law_name_1"
+                        android:textAlignment="center"
+                        android:textColor="#FFFFFF"
+                        android:transitionName="sharedTransition_text" />
 
-                <TextView
-                    android:id="@+id/textView6"
-                    style="@style/TextAppearance.Section.Detail"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:paddingLeft="16dp"
-                    android:paddingRight="16dp"
-                    android:text="General Provisions"
-                    android:textAlignment="center"
-                    android:textColor="#FFFFFF"
-                    android:textSize="12sp" />
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_marginStart="16dp"
+                        android:layout_marginTop="8dp"
+                        android:layout_marginEnd="16dp"
+                        android:layout_marginBottom="8dp"
+                        android:background="@color/white" />
 
-                <TextView
-                    android:id="@+id/textView7"
-                    style="@style/TextAppearance.Section.Detail"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:paddingLeft="16dp"
-                    android:paddingRight="16dp"
-                    android:text="Section II"
-                    android:textAlignment="center"
-                    android:textColor="#FFFFFF" />
+                    <TextView
+                        android:id="@+id/textView5"
+                        style="@style/TextAppearance.Section.Detail"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="16dp"
+                        android:paddingRight="16dp"
+                        android:text="@string/sec_1_law_chap_1"
+                        android:textAlignment="center"
+                        android:textColor="#FFFFFF" />
 
-                <TextView
-                    android:id="@+id/textView9"
-                    style="@style/TextAppearance.Section.Detail"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:paddingLeft="16dp"
-                    android:paddingRight="16dp"
-                    android:text="Declaration of Policy"
-                    android:textAlignment="center"
-                    android:textColor="#FFFFFF" />
+                    <TextView
+                        android:id="@+id/textView6"
+                        style="@style/TextAppearance.Section.Detail"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="16dp"
+                        android:paddingRight="16dp"
+                        android:text="@string/sec_1_law_chapsub_1"
+                        android:textAlignment="center"
+                        android:textColor="#FFFFFF"
+                        android:textSize="12sp" />
 
-                <View
-                    android:layout_width="match_parent"
-                    android:layout_height="1dp"
-                    android:layout_marginStart="16dp"
-                    android:layout_marginTop="8dp"
-                    android:layout_marginEnd="16dp"
-                    android:layout_marginBottom="8dp"
-                    android:background="@color/white" />
+                    <TextView
+                        android:id="@+id/textView7"
+                        style="@style/TextAppearance.Section.Detail"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="16dp"
+                        android:paddingRight="16dp"
+                        android:text="@string/sec_1_law_section_1"
+                        android:textAlignment="center"
+                        android:textColor="#FFFFFF" />
 
-                <TextView
-                    android:id="@+id/textView8"
-                    style="@style/TextAppearance.Section.Detail"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:paddingLeft="16dp"
-                    android:paddingRight="16dp"
-                    android:text="It is the policy of the State to protect the fundamental human right of privacy, of communication while ensuring free flow of information to promote innovation and growth. The State recognizes the vital role of information and communications technology in nation-building and its inherent obligation to ensure that personal information in information and communications systems in the government and in the private sector are secured and protected"
-                    android:textColor="#FFFFFF" />
+                    <TextView
+                        android:id="@+id/textView9"
+                        style="@style/TextAppearance.Section.Detail"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="16dp"
+                        android:paddingRight="16dp"
+                        android:text="@string/sec_1_law_secsub_1"
+                        android:textAlignment="center"
+                        android:textColor="#FFFFFF" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_marginStart="16dp"
+                        android:layout_marginTop="8dp"
+                        android:layout_marginEnd="16dp"
+                        android:layout_marginBottom="8dp"
+                        android:background="@color/white" />
+
+                    <TextView
+                        android:id="@+id/textView8"
+                        style="@style/TextAppearance.Section.Paragraph"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:justificationMode="inter_word"
+                        android:paddingLeft="16dp"
+                        android:paddingRight="16dp"
+                        android:text="@string/sec_1_law_content_1"
+                        android:textColor="#FFFFFF" />
 
 
-            </LinearLayout>
+                </LinearLayout>
+            </ScrollView>
+
         </LinearLayout>
 
     </androidx.cardview.widget.CardView>

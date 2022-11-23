@@ -26,6 +26,15 @@
             app:srcCompat="@drawable/natright_icon1" />
 
         <TextView
+            android:id="@+id/textView11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:gravity="center_horizontal"
+            android:text="@string/intro_quote"
+            android:textStyle="bold|italic" />
+
+        <TextView
             android:id="@+id/textView"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -39,7 +48,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:backgroundTint="#01a0e1"
-            android:text="Button"
+            android:text="Proceed"
             android:transitionName="go" />
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

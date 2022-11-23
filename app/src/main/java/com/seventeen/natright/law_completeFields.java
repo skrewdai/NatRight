@@ -9,15 +9,42 @@ import android.os.Bundle;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
+import android.widget.TextView;
 
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
-public class law_sec1_1 extends AppCompatActivity {
+public class law_completeFields extends AppCompatActivity {
+    public String law_ra, law_name, law_chap, law_chapsub, law_section,law_secsub, law_content;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_law_base1);
+        setContentView(R.layout.activity_law_model_complete);
+
+        Intent i = getIntent();
+        law_ra = i.getExtras().getString("law_ra");
+        law_name = i.getExtras().getString("law_name");
+        law_chap = i.getExtras().getString("law_chap");
+        law_chapsub = i.getExtras().getString("law_chapsub");
+        law_section = i.getExtras().getString("law_section");
+        law_secsub = i.getExtras().getString("law_secsub");
+        law_content = i.getExtras().getString("law_content");
+
+        TextView text_ra = (TextView)findViewById(R.id.text_ra);
+        TextView text_name = (TextView)findViewById(R.id.text_name);
+        TextView sec_top = (TextView)findViewById(R.id.sec_top);
+        TextView secsub_top = (TextView)findViewById(R.id.ssecsub_top);
+        TextView sec_bot = (TextView)findViewById(R.id.sec_bot);
+        TextView secsub_bot = (TextView)findViewById(R.id.secsub_bot);
+        TextView text_content = (TextView)findViewById(R.id.text_content);
+
+        text_ra.setText(law_ra);
+        text_name.setText(law_name);
+        sec_top.setText(law_chap);
+        secsub_top.setText(law_chapsub);
+        sec_bot.setText(law_section);
+        secsub_bot.setText(law_secsub);
+        text_content.setText(law_content);
 
         BottomNavigationView bottomNavigationView;
         bottomNavigationView = findViewById(R.id.bottomNavigationView);

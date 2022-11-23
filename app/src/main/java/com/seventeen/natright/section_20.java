@@ -9,17 +9,15 @@ import android.os.Bundle;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
-import android.view.View.OnClickListener;
 
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
 public class section_20 extends AppCompatActivity {
+    public String pass_law_ra, pass_law_name, pass_law_chap, pass_law_chapsub, pass_law_section, pass_law_secsub, pass_law_content;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_section20);
-
-        Button button3;
 
         BottomNavigationView bottomNavigationView;
         bottomNavigationView = findViewById(R.id.bottomNavigationView);
@@ -52,22 +50,11 @@ public class section_20 extends AppCompatActivity {
             public void onClick(View v) { toHomeScreen(); }
         });
 
-        button3 = findViewById(R.id.button3);
-        button3.setOnClickListener(new OnClickListener() {
-            @Override
-            public void onClick(View v) { toLaw1(); }
-        });
     }
 
     public void toHomeScreen() {
         ActivityOptions options = ActivityOptions.makeSceneTransitionAnimation(this);
         Intent intent = new Intent(getApplicationContext(), homeScreen.class);
-        startActivity(intent, options.toBundle());
-    }
-
-    public void toLaw1() {
-        ActivityOptions options = ActivityOptions.makeSceneTransitionAnimation(this);
-        Intent intent = new Intent(getApplicationContext(), law_sec1_1.class);
         startActivity(intent, options.toBundle());
     }
 }

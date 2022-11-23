@@ -58,7 +58,6 @@ public class homeScreen extends AppCompatActivity implements recyclerViewInterfa
 
     private void setupSection_Model() {
         String[] sectionfinalNames = getResources().getStringArray(R.array.sections_name_array);
-
         for (int i = 0; i < sectionfinalNames.length; i++) {
             sectionModels.add(new section_model(sectionfinalNames[i], sectionImages[i]));
         }
@@ -66,118 +65,76 @@ public class homeScreen extends AppCompatActivity implements recyclerViewInterfa
 
     @Override
     public void onItemClick(int position) {
-        int positionVal = position;
-        switch (positionVal) {
+        ActivityOptions options = ActivityOptions.makeSceneTransitionAnimation(this);
+        Intent intent = null;
+        switch (position) {
             case 0:
-                ActivityOptions options = ActivityOptions.makeSceneTransitionAnimation(this);
-                Intent intent = new Intent(getApplicationContext(), section_1.class);
-                startActivity(intent, options.toBundle());
+                intent = new Intent(getApplicationContext(), section_1.class);
                 break;
             case 1:
-                ActivityOptions options1 = ActivityOptions.makeSceneTransitionAnimation(this);
-                Intent intent1 = new Intent(getApplicationContext(), section_2.class);
-                startActivity(intent1, options1.toBundle());
+                intent = new Intent(getApplicationContext(), section_2.class);
                 break;
             case 2:
-                ActivityOptions options2 = ActivityOptions.makeSceneTransitionAnimation(this);
-                Intent intent2 = new Intent(getApplicationContext(), section_3.class);
-                startActivity(intent2, options2.toBundle());
+                intent = new Intent(getApplicationContext(), section_3.class);
                 break;
             case 3:
-                ActivityOptions options3 = ActivityOptions.makeSceneTransitionAnimation(this);
-                Intent intent3 = new Intent(getApplicationContext(), section_4.class);
-                startActivity(intent3, options3.toBundle());
+                intent = new Intent(getApplicationContext(), section_4.class);
                 break;
             case 4:
-                ActivityOptions options4 = ActivityOptions.makeSceneTransitionAnimation(this);
-                Intent intent4 = new Intent(getApplicationContext(), section_5.class);
-                startActivity(intent4, options4.toBundle());
+                intent = new Intent(getApplicationContext(), section_5.class);
                 break;
             case 5:
-                ActivityOptions options5 = ActivityOptions.makeSceneTransitionAnimation(this);
-                Intent intent5 = new Intent(getApplicationContext(), section_6.class);
-                startActivity(intent5, options5.toBundle());
+                intent = new Intent(getApplicationContext(), section_6.class);
                 break;
             case 6:
-                ActivityOptions options6 = ActivityOptions.makeSceneTransitionAnimation(this);
-                Intent intent6 = new Intent(getApplicationContext(), section_7.class);
-                startActivity(intent6, options6.toBundle());
+                intent = new Intent(getApplicationContext(), section_7.class);
                 break;
             case 7:
-                ActivityOptions options7 = ActivityOptions.makeSceneTransitionAnimation(this);
-                Intent intent7 = new Intent(getApplicationContext(), section_8.class);
-                startActivity(intent7, options7.toBundle());
+                intent = new Intent(getApplicationContext(), section_8.class);
                 break;
             case 8:
-                ActivityOptions options8 = ActivityOptions.makeSceneTransitionAnimation(this);
-                Intent intent8 = new Intent(getApplicationContext(), section_9.class);
-                startActivity(intent8, options8.toBundle());
+                intent = new Intent(getApplicationContext(), section_9.class);
                 break;
             case 9:
-                ActivityOptions options9 = ActivityOptions.makeSceneTransitionAnimation(this);
-                Intent intent9 = new Intent(getApplicationContext(), section_10.class);
-                startActivity(intent9, options9.toBundle());
+                intent = new Intent(getApplicationContext(), section_10.class);
                 break;
             case 10:
-                ActivityOptions options10 = ActivityOptions.makeSceneTransitionAnimation(this);
-                Intent intent10 = new Intent(getApplicationContext(), section_11.class);
-                startActivity(intent10, options10.toBundle());
+                intent = new Intent(getApplicationContext(), section_11.class);
                 break;
             case 11:
-                ActivityOptions options11 = ActivityOptions.makeSceneTransitionAnimation(this);
-                Intent intent11 = new Intent(getApplicationContext(), section_12.class);
-                startActivity(intent11, options11.toBundle());
+                intent = new Intent(getApplicationContext(), section_12.class);
                 break;
             case 12:
-                ActivityOptions options12 = ActivityOptions.makeSceneTransitionAnimation(this);
-                Intent intent12 = new Intent(getApplicationContext(), section_13.class);
-                startActivity(intent12, options12.toBundle());
+                intent = new Intent(getApplicationContext(), section_13.class);
                 break;
             case 13:
-                ActivityOptions options13 = ActivityOptions.makeSceneTransitionAnimation(this);
-                Intent intent13 = new Intent(getApplicationContext(), section_14.class);
-                startActivity(intent13, options13.toBundle());
+                intent = new Intent(getApplicationContext(), section_14.class);
                 break;
             case 14:
-                ActivityOptions options14 = ActivityOptions.makeSceneTransitionAnimation(this);
-                Intent intent14 = new Intent(getApplicationContext(), section_15.class);
-                startActivity(intent14, options14.toBundle());
+                intent = new Intent(getApplicationContext(), section_15.class);
                 break;
             case 15:
-                ActivityOptions options15 = ActivityOptions.makeSceneTransitionAnimation(this);
-                Intent intent15 = new Intent(getApplicationContext(), section_16.class);
-                startActivity(intent15, options15.toBundle());
+                intent = new Intent(getApplicationContext(), section_16.class);
                 break;
             case 16:
-                ActivityOptions options16 = ActivityOptions.makeSceneTransitionAnimation(this);
-                Intent intent16 = new Intent(getApplicationContext(), section_17.class);
-                startActivity(intent16, options16.toBundle());
+                intent = new Intent(getApplicationContext(), section_17.class);
                 break;
             case 17:
-                ActivityOptions options17 = ActivityOptions.makeSceneTransitionAnimation(this);
-                Intent intent17 = new Intent(getApplicationContext(), section_18.class);
-                startActivity(intent17, options17.toBundle());
+                intent = new Intent(getApplicationContext(), section_18.class);
                 break;
             case 18:
-                ActivityOptions options18 = ActivityOptions.makeSceneTransitionAnimation(this);
-                Intent intent18 = new Intent(getApplicationContext(), section_19.class);
-                startActivity(intent18, options18.toBundle());
+                intent = new Intent(getApplicationContext(), section_19.class);
                 break;
             case 19:
-                ActivityOptions options19 = ActivityOptions.makeSceneTransitionAnimation(this);
-                Intent intent19 = new Intent(getApplicationContext(), section_20.class);
-                startActivity(intent19, options19.toBundle());
+                intent = new Intent(getApplicationContext(), section_20.class);
                 break;
             case 20:
-                ActivityOptions options20 = ActivityOptions.makeSceneTransitionAnimation(this);
-                Intent intent20 = new Intent(getApplicationContext(), section_21.class);
-                startActivity(intent20, options20.toBundle());
+                intent = new Intent(getApplicationContext(), section_21.class);
                 break;
             case 21:
-                ActivityOptions options21 = ActivityOptions.makeSceneTransitionAnimation(this);
-                Intent intent21 = new Intent(getApplicationContext(), section_22.class);
-                startActivity(intent21, options21.toBundle());
+                intent = new Intent(getApplicationContext(), section_22.class);
                 break;
         }
+        startActivity(intent, options.toBundle());
     }
 }

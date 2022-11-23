@@ -1,18 +1,66 @@
 <resources>
     <string name="app_name">NatRight</string>
     <!--  introScreen     -->
-    <string name="intro_Description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nuncelementum lacinia auctor. Nam dictum eros nec nisl congue sollicitudin.
-        Proin vitae malesuada felis, non luctus nisl. Praesent vulputate, purus vel congue porttitor, urna ipsum bibendum sem, sodales venenatis nulla turpis sed nisl.
-        Nulla eu luctus sapien, at porta justo. Curabitur id mollis metus. Vestibulum aliquam rhoncus quam a molestie. Ut ante nisi, varius vitae tristique et, finibus et dolor.
-        Proin consequat rutrum lectus, eu convallis arcu ultricies at. Proin a porta ex. Curabitur eget venenatis magna, quis cursus odio. Aenean eu augue non magna maximus pulvinar
-        at at erat. Morbi semper, enim ac ornare bibendum, eros urna egestas elit, at aliquet neque felis sit amet velit. Aliquam vulputate rhoncus blandit. Integer hendrerit iaculis
-        molestie. Quisque eleifend convallis purus vitae elementum. Quisque ac diam est. Aenean id nisl at nunc volutpat semper. Vivamus a tempor tortor, ac euismod erat. In tortor quam,
-        aliquam odio id, iaculis dapibus lectus. Nullam justo neque, bibendum nec sapien at, accumsan tristique tortor. Quisque congue tortor eget tortor congue, eu gravida turpis tincidunt.
-        Fusce dignissim commodo libero ut aliquet. Suspendisse dui nunc, condimentum vel porta ultrices, imperdiet vel eros.</string>
+    <string name="intro_quote">Did you know you have rights? \nThe Constitution says you do, and so do we.</string>
+    <string name="intro_Description">
+        Everyone deserves to be treated as each other\'s equal, to be seen as a person
+        being worthy of respect and utmost fairness. Our rights is what defines our humanity
+        and reinforce our innate dignity. It can also ensure us a very humane state of living
+        that promotes freedom, choice, and equity among others. Nobody can ever take those away
+        from us for it is indelible to our existence. We may not be able to see or touch them
+        but rights grants us the protection against all forms of injustices and abuses. Sadly,
+        there are those who go out of their way to trample upon the dignity of others without
+        remorse. That is why there are still victims being accosted for to this day. Not helping
+        matters is the fact that others are unaware of their rights and are being exploited for it.
+        Do we just ignore all of these? Do we just let it be? We say no to this form of abuse
+        on another. Rights are fundamental to our being, our identity as a human being. Standing by
+        and doing nothing is not an option, we should uphold it. The thing we can do to uphold our
+        rights is to claim it. So, take charge and learn what and why you need to learn your rights.</string>
 
     <!--    homeScreen      -->
     <string name="header">ARTICLE III</string>
     <string name="subtitle">Bill of Rights</string>
+    <string name="orgFunctions">Under Section 18, Article XIII of the 1987 Constitution, the Commission on Human Rights shall have the following powers and functions:
+        \n\n(1) Investigate, on its own or on complaint by any party, all forms of human rights violations involving civil and political rights;
+        \n\n(2) Adopt its operational guidelines and rules of procedure, and cite for contempt for violations thereof in accordance with the Rules of Court;
+        \n\n(3) Provide appropriate legal measures for the protection of human rights of all persons within the Philippines, as well as Filipinos residing abroad,
+        and provide for preventive measures and legal aid services to the under-privileged whose human rights have been violated or need protection;
+        \n\n(4) Exercise visitorial powers over jails, prisons, or detention facilities;
+        \n\n(5) Establish a continuing program of research, education, and information to enhance respect for the primacy of human rights;
+        \n\n(6) Recommend to Congress effective measures to promote human rights and to provide for compensation to victims of violations of human rights, or their families;
+        \n\n(7) Monitor the Philippine Government\'s compliance with international treaty obligation on human rights;
+        \n\n(8) Grant immunity from prosecution to any person whose testimony or whose possession of documents or other evidence is necessary or convenient to determine the truth in any investigation conducted by it or under its authority;
+        \n\n(9) Request the Assistance of any department, bureau, office, or agency in the performance of its functions;
+        \n\n(10) Appoint its officers and employees in accordance with law; and
+        \n\n(11) Perform such other duties and functions as may be provided by law.
+    </string>
+    <string name="orgVision">A just and humane Philippine society of persons equal in opportunity, living a life of dignity, and forever vigilant against abuses and oppression.</string>
+    <string name="orgMission">As conscience of government and the people, we seek truth in human rights issues and prevent incidence of human rights violations. As beacon of truth, we make people aware of their rights, and guide government
+        and society towards actions that respect the rights of all, particularly those who cannot defend themselves — the disadvantaged, marginalized, and vulnerable.</string>
+
+    <!-- infoScreen -->
+    <string name="infoHeader1">Why are rights important?</string>
+    <string name="infoHeader1_Content">A right in itself does not discriminate from race, gender, language, religion, beliefs, nationality, and personal circumstances. Your rights are nonnegotiable.
+    You are born with it and you use it to take part in the growth of yourself and society. Without it, a human being would be subject to devastating amounts of injustices and abuses. That is not the
+    way to treat one another. Rights allow us to live with our heads held up high and with dignity. Rights should never be trampled on for it is fundamental to our existence as a human being. It entitles
+    us to all of the goodness and fairness this world has to offer. To put it simply, human rights protects and preserves our humanity.</string>
+    <string name="infoHeader2">Why the need for NatRight?</string>
+    <string name="infoHeader2_Content">Frankly, there is no need for this application at all. Like it was stated above, there is no need to remind people that they have rights. Every person simply possesses
+    it from the get-go. Those with enough technological competence can locate the proper directory of information regarding rights with ease today. But, this is not for those who are able to find it for themselves,
+    this is for those who are not capable or unable to learn about their rights. This statement also extends to those who are unaware of their rights and want to inform themselves. We would have preferred for this
+    application to be just a fun read for those interested. But, injustices are still occurring, people are still being abused, and humans are still being discriminated. So, this application is intended to be a guide
+    and a short read for those who desire to reclaim their rights and remind us that we are all the same.</string>
+
+    <!-- organizationScreen -->
+    <string name="orgHeader">The Primary Institution for Human Rights</string>
+    <string name="orgName">Commission on Human Rights</string>
+    <string name="orgDetails">The Commission on Human Rights (CHR) is an independent National Human Rights Institution (NHRI) created under the 1987 Philippine Constitution,
+        established on 05 May 1987 by virtue of Executive Order No. 163.
+        \n\nThe Commission is mandated to conduct investigations on human rights violations against marginalized and vulnerable sectors of the society, involving civil and political rights.
+        \n\nCHR is an “A” accredited NHRI, fully complying with the Paris Principles adopted by the United Nations General Assembly in 1995. As an NHRI, the Commission upholds six
+        fundamental characteristics — independence, pluralism, broad mandate, transparency, accessibility, and operational efficiency.
+        \n\nThe Commission commits to deliver prompt, responsive, accessible, and excellent public ser vice for the protection and promotion of human rights in accordance with universal
+        human rights principles and standards.</string>
 
     <string-array name="sections_name_array">
         <item>Section 1</item>
@@ -154,7 +202,8 @@
     <string name="law_10172_sec2_2">Security of Sensitive Personal Information in Government</string>
     <string name="law_10172_sec2_3">Section 23</string>
     <string name="law_10172_sec2_4">Requirements Relating to Access by Agency Personnel to Sensitive Personal Information.</string>
-    <string name="law_10172_sec2_manifesto">(a) On-site and Online Access – Except as may be allowed through guidelines to be issued by the Commission, no employee of the government shall
+    <string name="law_10172_sec2_manifesto">
+        (a) On-site and Online Access – Except as may be allowed through guidelines to be issued by the Commission, no employee of the government shall
         have access to sensitive personal information on government property or through online facilities unless the employee has received a security clearance from the head of the source
         agency.</string>
 
@@ -162,4 +211,442 @@
     <string name="menu_List">Sections</string>
     <string name="menu_Organization">Organization</string>
     <string name="menu_Info">Info</string>
+
+    <!-- lawContent -->
+    <string name="sec_1_law_ra_1">REPUBLIC ACT NO. 10173</string>
+    <string name="sec_1_law_name_1">Data Privacy Act of 2012</string>
+    <string name="sec_1_law_chap_1">ARTICLE II</string>
+    <string name="sec_1_law_chapsub_1">Purpose, Other Preliminary Provisions, and Key Administrative Provisions</string>
+    <string name="sec_1_law_section_1">SECTION VI</string>
+    <string name="sec_1_law_secsub_1">Establishment, Mandate and Functions</string>
+    <string name="sec_1_law_content_1">
+        It is the policy of the State to protect the fundamental human right of privacy, of communication while ensuring free flow of information to promote
+        innovation and growth. The State recognizes the vital role of information and communications technology in nation-building and its inherent obligation to ensure that personal
+        information in information and communications systems in the government and in the private sector are secured and protected</string>
+
+    <string name="sec_1_law_ra_2">REPUBLIC ACT NO. 386</string>
+    <string name="sec_1_law_name_2">Civil Code of the Philippines</string>
+    <string name="sec_1_law_chap_2">CHAPTER II</string>
+    <string name="sec_1_law_chapsub_2">Human Relations</string>
+    <string name="sec_1_law_section_2"></string>
+    <string name="sec_1_law_secsub_2"></string>
+    <string name="sec_1_law_content_2">
+        ARTICLE 26. Every person shall respect the dignity, personality, privacy and peace of mind of his neighbors and other
+        persons. The following and similar acts, though they may not constitute a criminal offense, shall produce a cause of action for damages,
+        prevention and other relief:
+        \n\n(1) Prying into the privacy of another’s residence;
+        \n\n(2) Meddling with or disturbing the private life or family relations of another;
+        \n\n(3) Intriguing to cause another to be alienated from his friends;
+        \n\n(4) Vexing or humiliating another on account of his religious beliefs, lowly station in life, place of birth, physical defect, or other
+        personal condition.</string>
+
+    <string name="sec_2_law_ra_1">REPUBLIC ACT NO. 10173</string>
+    <string name="sec_2_law_name_1">Data Privacy Act of 2012</string>
+    <string name="sec_2_law_chap_1">CHAPTER VII</string>
+    <string name="sec_2_law_chapsub_1">Security of Sensitive Personal Information in Government</string>
+    <string name="sec_2_law_section_1">SECTION XXIII</string>
+    <string name="sec_2_law_secsub_1">Requirements Relating to Access by Agency Personnel to Sensitive Personal Information</string>
+    <string name="sec_2_law_content_1">
+        (a) On-site and Online Access – Except as may be allowed through guidelines to be issued by the Commission,
+        no employee of the government shall have access to sensitive personal information on government property or through online facilities unless
+        the employee has received a security clearance from the head of the source agency.</string>
+
+    <string name="sec_2_law_ra_2">REPUBLIC ACT NO. 386</string>
+    <string name="sec_2_law_name_2">Civil Code of the Philippines</string>
+    <string name="sec_2_law_chap_2">CHAPTER II</string>
+    <string name="sec_2_law_chapsub_2">Human Relations</string>
+    <string name="sec_2_law_section_2"></string>
+    <string name="sec_2_law_secsub_2"></string>
+    <string name="sec_2_law_content_2">
+        ARTICLE 32. Any public officer or employee, or any private individual, who directly or indirectly obstructs, defeats, violates or in any manner impedes or
+        impairs any of the following rights and liberties of another person shall be liable to the latter for damages:
+        \n\n(9) The right to be secure in one’s person, house, papers, and effects against unreasonable searches and seizures;</string>
+
+    <string name="sec_3_law_ra_1">REPUBLIC ACT NO. 9372</string>
+    <string name="sec_3_law_name_1">Human Security Act of 2007</string>
+    <string name="sec_3_law_chap_1">SECTION XV</string>
+    <string name="sec_3_law_chapsub_1">Evidentiary Value of Deposited Materials</string>
+    <string name="sec_3_law_section_1"></string>
+    <string name="sec_3_law_secsub_1"></string>
+    <string name="sec_3_law_content_1">
+        Any listened to, intercepted, and recorded communications, messages, conversations,
+        discussions, or spoken or written words, or any part or parts thereof, or any information
+        or fact contained therein, including their existence, content, substance, purport, effect,
+        or meaning, which have been secured in violation of the pertinent provisions of this Act,
+        shall absolutely not be admissible and usable as evidence against anybody in any judicial,
+        quasi-judicial, legislative, or administrative investigation, inquiry, proceeding, or
+        hearing.</string>
+
+    <string name="sec_3_law_ra_2">REPUBLIC ACT NO. 10173</string>
+    <string name="sec_3_law_name_2">Data Privacy Act of 2012</string>
+    <string name="sec_3_law_chap_2">CHAPTER III</string>
+    <string name="sec_3_law_chapsub_2">Processing of Personal Information</string>
+    <string name="sec_3_law_section_2">SECTION XII</string>
+    <string name="sec_3_law_secsub_2">Criteria for Lawful Processing of Personal Information</string>
+    <string name="sec_3_law_content_2">
+        (a) The data subject has given his or her consent;
+        \n\n(b) The processing of personal information is necessary and is related to the fulfillment of a
+        \ncontract with the data subject or in order to take steps at the request of the data subject prior
+        to entering into a contract;
+        \n\n(e) The processing is necessary in order to respond to national emergency, to comply with the
+        requirements of public order and safety, or to fulfill functions of public authority which necessarily
+        includes the processing of personal data for the fulfillment of its mandate; or
+        \n\n(f) The processing is necessary for the purposes of the legitimate interests pursued by the personal
+        information controller or by a third party or parties to whom the data is disclosed, except where such
+        interests are overridden by fundamental rights and freedoms of the data subject which require protection
+        under the Philippine Constitution.</string>
+
+    <string name="sec_4_law_ra_1">REPUBLIC ACT NO. 386</string>
+    <string name="sec_4_law_name_1">Civil Code of the Philippines</string>
+    <string name="sec_4_law_chap_1">CHAPTER II</string>
+    <string name="sec_4_law_chapsub_1">Human Relations</string>
+    <string name="sec_4_law_section_1"></string>
+    <string name="sec_4_law_secsub_1"></string>
+    <string name="sec_4_law_content_1">
+        ARTICLE 32. Any public officer or employee, or any private individual, who directly or indirectly obstructs, defeats, violates or in any manner impedes or
+        impairs any of the following rights and liberties of another person shall be liable to the latter for damages:
+        \n\n(2) Freedom of speech;</string>
+
+    <string name="sec_4_law_ra_2">EXECUTIVE ORDER NO. 2, s. 2016</string>
+    <string name="sec_4_law_name_2">Executive Order on Freedom of Information</string>
+    <string name="sec_4_law_chap_2">SECTION III</string>
+    <string name="sec_4_law_chapsub_2">Exception</string>
+    <string name="sec_4_law_section_2"></string>
+    <string name="sec_4_law_secsub_2"></string>
+    <string name="sec_4_law_content_2">
+        Access to information shall be denied when the information falls under any of the exceptions enshrined in the Constitution,
+        existing law or jurisprudence</string>
+
+    <string name="sec_5_law_ra_1">REPUBLIC ACT NO. 386</string>
+    <string name="sec_5_law_name_1">Civil Code of the Philippines</string>
+    <string name="sec_5_law_chap_1">CHAPTER II</string>
+    <string name="sec_5_law_chapsub_1">Human Relations</string>
+    <string name="sec_5_law_section_1"></string>
+    <string name="sec_5_law_secsub_1"></string>
+    <string name="sec_5_law_content_1">
+        ARTICLE 32. Any public officer or employee, or any private individual, who directly or indirectly obstructs, defeats, violates or in any manner impedes or
+        impairs any of the following rights and liberties of another person shall be liable to the latter for damages:
+        \n\n(1) Freedom of religion;</string>
+
+    <string name="sec_5_law_ra_2">ARTICLE NO. 3815, s. 1930</string>
+    <string name="sec_5_law_name_2">Revised Penal Code of the Philippines</string>
+    <string name="sec_5_law_chap_2">CHAPTER I</string>
+    <string name="sec_5_law_chapsub_2">Arbitrary Detention or Expulsion, Violation of Dwelling, Prohibition, Interruption, and Dissolution of Peaceful
+        Meetings and Crimes Against Religious Worship</string>
+    <string name="sec_5_law_section_2">SECTION IV</string>
+    <string name="sec_5_law_secsub_2">Crimes Against Religious Worship</string>
+    <string name="sec_5_law_content_2">
+        ARTICLE 132. Interruption of Religious Worship. — The penalty of prisión correccional in its minimum period shall be imposed upon any public officer
+        or employee who shall prevent or disturb the ceremonies or manifestations of any religion. If the crime shall have been committed with violence or threats,
+        the penalty shall be prisión correccional in its medium and maximum periods.
+        \n\nARTICLE 133. Offending the Religious Feelings. — The penalty of arresto mayor in its maximum period to prisión correccional in its minimum period shall
+        be imposed upon anyone who, in a place devoted to religious worship or during the celebration of any religious ceremony shall perform acts notoriously
+        offensive to the feelings of the faithful.
+    </string>
+
+    <string name="sec_6_law_ra_1">REPUBLIC ACT NO. 9372</string>
+    <string name="sec_6_law_name_1">Human Security Act of 2007</string>
+    <string name="sec_6_law_chap_1">SECTION XXVI</string>
+    <string name="sec_6_law_chapsub_1">Restriction on Travel</string>
+    <string name="sec_6_law_section_1"></string>
+    <string name="sec_6_law_secsub_1"></string>
+    <string name="sec_6_law_content_1">
+        In cases where evidence of guilt is not strong, and the person charged with the crime of terrorism or conspiracy to commit terrorism is entitled to bail and
+        is granted the same, the court, upon application by the prosecutor, shall limit the right of travel of the accused to within the municipality or city where he
+        resides or where the case is pending, in the interest of national security and public safety, consistent with Article III, Section 6 of the Constitution.
+        Travel outside of said municipality or city, without the authorization of the court, shall be deemed a violation of the terms and conditions of his bail, which
+        shall then be forfeited as provided under the Rules of Court.</string>
+
+    <string name="sec_6_law_ra_2">REPUBLIC ACT NO. 8239</string>
+    <string name="sec_6_law_name_2">Philippine Passport Act of 1996</string>
+    <string name="sec_6_law_chap_2">SECTION II</string>
+    <string name="sec_6_law_chapsub_2">Statement of Policy</string>
+    <string name="sec_6_law_section_2"></string>
+    <string name="sec_6_law_secsub_2"></string>
+    <string name="sec_6_law_content_2">
+        The people’s constitutional right to travel is inviolable. Accordingly, the government has the duty to issue passport or any travel document to any citizen of
+        the Philippines or individual who complies with the requirement of this Act. The right to travel may be impaired only when national security, public safety, or public
+        health requires. To enhance and protect the unimpaired exercise of this right, only minimum requirements for the application and issuance of passports and other travel
+        documents shall be prescribed. Action on such application and the issuance shall be expedited.</string>
+
+    <string name="sec_7_law_ra_1">EXECUTIVE ORDER NO. 2, s. 2016</string>
+    <string name="sec_7_law_name_1">Executive Order on Freedom of Information</string>
+    <string name="sec_7_law_chap_1">SECTION X</string>
+    <string name="sec_7_law_chapsub_1">Fees</string>
+    <string name="sec_7_law_section_1"></string>
+    <string name="sec_7_law_secsub_1"></string>
+    <string name="sec_7_law_content_1">
+        Government offices shall not charge any fee for accepting requests for access to information. They may, however, charge a reasonable fee to reimburse necessary costs,
+        including actual costs of reproduction and copying of the information required, subject to existing rules and regulations. In no case shall the applicable fees be so
+        onerous as to defeat the purpose of this Order</string>
+
+    <string name="sec_7_law_ra_2">REPUBLIC ACT NO. 9470</string>
+    <string name="sec_7_law_name_2">National Archives of the Philippines Act of 2007</string>
+    <string name="sec_7_law_chap_2">ARTICLE II</string>
+    <string name="sec_7_law_chapsub_2">PURPOSE, OTHER PRELIMINARY PROVISIONS, AND KEY ADMINISTRATIVE PROVISIONS</string>
+    <string name="sec_7_law_section_2">SECTION VI</string>
+    <string name="sec_7_law_secsub_2">Establishment, Mandate and Functions</string>
+    <string name="sec_7_law_content_2">
+        (a) There is hereby established a National Archives of the Philippines where public archives shall be stored, preserved, conserved and made available to the public.
+        The National Archives of the Philippines shall be attached to the National Commission for Culture and the Arts (NCCA) for budgetary purposes.</string>
+
+    <string name="sec_8_law_ra_1">PRESIDENTIAL DECREE No. 442</string>
+    <string name="sec_8_law_name_1">Labor Code of the Philippines</string>
+    <string name="sec_8_law_chap_1">CHAPTER II</string>
+    <string name="sec_8_law_chapsub_1">REGULATION OF RECRUITMENT AND PLACEMENT ACTIVITIES</string>
+    Regulation of Recruitment and Placement Activities
+    <string name="sec_8_law_section_1"></string>
+    <string name="sec_8_law_secsub_1"></string>
+    <string name="sec_8_law_content_1">
+        ARTICLE 25. Private sector participation in the recruitment and placement of workers. - Pursuant to national development objectives and in order to harness and maximize the use of private sector resources and initiative in the development and implementation
+        of a comprehensive employment program, the private employment sector shall participate in the recruitment and placement of workers, locally and overseas, under such
+        guidelines, rules and regulations, as may be issued by the Secretary of Labor and Employment.
+    </string>
+
+    <string name="sec_8_law_ra_2">EXECUTIVE ORDER NO. 111, s. 1986</string>
+    <string name="sec_8_law_name_2">Amending Certain Provisions of the Labor Code of the Philippines, as amended</string>
+    <string name="sec_8_law_chap_2">SECTION VI</string>
+    <string name="sec_8_law_chapsub_2">Article 245 of the Labor Code of the Philippines is hereby amended to read as follows:</string>
+    <string name="sec_8_law_section_2"></string>
+    <string name="sec_8_law_secsub_2"></string>
+    <string name="sec_8_law_content_2">
+        “ART. 245. Right of Employees in the public service. Employees of government corporations established under the Corporation Code shall have the right to organize and to
+        bargain collectively with their respective employees. All other employees in the civil service shall have the right to form associations for purposes not contrary to law.”</string>
+
+    <string name="sec_9_law_ra_1">REPUBLIC ACT NO. 386</string>
+    <string name="sec_9_law_name_1">Civil Code of the Philippines</string>
+    <string name="sec_9_law_chap_1">TITLE II</string>
+    <string name="sec_9_law_chapsub_1">Ownership</string>
+    <string name="sec_9_law_section_1">CHAPTER I</string>
+    <string name="sec_9_law_secsub_1">Ownership in General</string>
+    <string name="sec_9_law_content_1">
+        ARTICLE 435. No person shall be deprived of his property except by competent authority and for public use and always upon payment of just compensation.</string>
+
+    <string name="sec_9_law_ra_2">REPUBLIC ACT NO. 10752</string>
+    <string name="sec_9_law_name_2">The Right-of-Way Act</string>
+    <string name="sec_9_law_chap_2">SECTION IV</string>
+    <string name="sec_9_law_chapsub_2">Modes of Acquiring Real Property</string>
+    <string name="sec_9_law_section_2"></string>
+    <string name="sec_9_law_secsub_2"></string>
+    <string name="sec_9_law_content_2">
+        The government may acquire real property needed as right-of-way site or location for any national government infrastructure project through donation, negotiated sale,
+        expropriation, or any other mode of acquisition as provided by law.</string>
+
+    <string name="sec_10_law_ra_1">REPUBLIC ACT NO. 386</string>
+    <string name="sec_10_law_name_1">Civil Code of the Philippines</string>
+    <string name="sec_10_law_chap_1">TITLE I</string>
+    <string name="sec_10_law_chapsub_1">Obligations</string>
+    <string name="sec_10_law_section_1">CHAPTER II</string>
+    <string name="sec_10_law_secsub_1">Nature and Effect of Obligations</string>
+    <string name="sec_10_law_content_1">
+        ARTICLE 1163. Every person obliged to give something is also obliged to take care of it with the proper diligence of a good father of a family, unless the law or the
+        stipulation of the parties requires another standard of care.</string>
+
+    <string name="sec_10_law_ra_2">REPUBLIC ACT NO. 386</string>
+    <string name="sec_10_law_name_2">Civil Code of the Philippines</string>
+    <string name="sec_10_law_chap_2">CHAPTER III</string>
+    <string name="sec_10_law_chapsub_2">Different Kinds of Obligations</string>
+    <string name="sec_10_law_section_2">SECTION I</string>
+    <string name="sec_10_law_secsub_2">Pure and Conditional Obligations</string>
+    <string name="sec_10_law_content_2">
+        ARTICLE 1180. When the debtor binds himself to pay when his means permit him to do so, the obligation shall be deemed to be one with a period, subject to the provisions
+        of article 1197.</string>
+
+    <string name="sec_11_law_ra_1">REPUBLIC ACT NO. 9999</string>
+    <string name="sec_11_law_name_1">Free Legal Assistance Act of 2010</string>
+    <string name="sec_11_law_chap_1">SECTION II</string>
+    <string name="sec_11_law_chapsub_1">Declaration of Policy</string>
+    <string name="sec_11_law_section_1"></string>
+    <string name="sec_11_law_secsub_1"></string>
+    <string name="sec_11_law_content_1">
+        It is the declared policy of the State to value the dignity of every human person and guarantee the rights of every individual, particularly those who cannot afford the
+        services of legal counsel. Furthermore, it is the policy of the State to promote a just and dynamic social order that will ensure the prosperity and independence of the
+        nation and free the people from poverty through policies and programs that provide adequate social services and improve the quality of life for all. In addition, the State
+        shall guarantee free legal assistance to the poor and ensure that every person who cannot afford the services of a counsel is provided with a competent and independent counsel
+        preferably of his/her own choice, if upon determination it appears that the party cannot afford the services of a counsel, and that services of a counsel are necessary to secure
+        the ends of justice and protect of the party.</string>
+
+    <string name="sec_11_law_ra_2">REPUBLIC ACT NO. 386</string>
+    <string name="sec_11_law_name_2">Civil Code of the Philippines</string>
+    <string name="sec_11_law_chap_2">CHAPTER II</string>
+    <string name="sec_11_law_chapsub_2">Human Relations</string>
+    <string name="sec_11_law_section_2"></string>
+    <string name="sec_11_law_secsub_2"></string>
+    <string name="sec_11_law_content_2">
+        ARTICLE 32. Any public officer or employee, or any private individual, who directly or indirectly obstructs, defeats, violates or in any manner impedes or
+        impairs any of the following rights and liberties of another person shall be liable to the latter for damages:
+        \n\n(19) Freedom of access to the courts.</string>
+
+    <string name="sec_12_law_ra_1">REPUBLIC ACT NO. 9745</string>
+    <string name="sec_12_law_name_1">Anti-Torture Act of 2009</string>
+    <string name="sec_12_law_chap_1">SECTION VI</string>
+    <string name="sec_12_law_chapsub_1">Freedom from Torture and Other Cruel, Inhuman and Degrading Treatment or Punishment, an Absolute Right</string>
+    <string name="sec_12_law_section_1"></string>
+    <string name="sec_12_law_secsub_1"></string>
+    <string name="sec_12_law_content_1">
+        Torture and other cruel, inhuman and degrading treatment or punishment as criminal acts shall apply to all circumstances. A state of war or a threat
+        of war, internal political instability, or any other public emergency, or a document or any determination comprising an “order of battle” shall not
+        and can never be invoked as a justification for torture and other cruel, inhuman and degrading treatment or punishment.</string>
+
+    <string name="sec_12_law_ra_2">REPUBLIC ACT NO. 386</string>
+    <string name="sec_12_law_name_2">Civil Code of the Philippines</string>
+    <string name="sec_12_law_chap_2">CHAPTER II</string>
+    <string name="sec_12_law_chapsub_2">Human Relations</string>
+    <string name="sec_12_law_section_2"></string>
+    <string name="sec_12_law_secsub_2"></string>
+    <string name="sec_12_law_content_2">
+        ARTICLE 32. Any public officer or employee, or any private individual, who directly or indirectly obstructs, defeats, violates or in any manner impedes or
+        impairs any of the following rights and liberties of another person shall be liable to the latter for damages:
+        \n\n(17) Freedom from being compelled to be a witness against one’s self, or from being forced to confess guilt, or from being induced by a promise
+        of immunity or reward to make such confession, except when the person confessing becomes a State witness;.</string>
+
+    <string name="sec_13_law_ra_1">REPUBLIC ACT NO. 10389</string>
+    <string name="sec_13_law_name_1">Recognizance Act of 2012</string>
+    <string name="sec_13_law_chap_1">SECTION II</string>
+    <string name="sec_13_law_chapsub_1">Statement of Policy</string>
+    <string name="sec_13_law_section_1"></string>
+    <string name="sec_13_law_secsub_1"></string>
+    <string name="sec_13_law_content_1">
+        It is the declared policy of the State to promote social justice in all phases of national development, including the promotion of restorative
+        justice as a means to address the problems confronting the criminal justice system such as protracted trials, prolonged resolution of cases, lack
+        of legal representation, lack of judges, inability to post bail bond, congestion in jails, and lack of opportunity to reform and rehabilitate offenders.
+        In consonance with the principle of presumption of innocence, the 1987 Philippine Constitution recognizes and guarantees the right to bail or to be
+        released on recognizance as may be provided by law. In furtherance of this policy, the right of persons, except those charged with crimes punishable by
+        death, reclusion perpetua, or life imprisonment, to be released on recognizance before conviction by the Regional Trial Court, irrespective of whether
+        the case was originally filed in or appealed to it, upon compliance with the requirements of this Act, is hereby affirmed, recognized and guaranteed.</string>
+
+    <string name="sec_13_law_ra_2">REPUBLIC ACT NO. 386</string>
+    <string name="sec_13_law_name_2">Civil Code of the Philippines</string>
+    <string name="sec_13_law_chap_2">CHAPTER II</string>
+    <string name="sec_13_law_chapsub_2">Human Relations</string>
+    <string name="sec_13_law_section_2"></string>
+    <string name="sec_13_law_secsub_2"></string>
+    <string name="sec_13_law_content_2">
+        ARTICLE 32. Any public officer or employee, or any private individual, who directly or indirectly obstructs, defeats, violates or in any manner impedes or
+        impairs any of the following rights and liberties of another person shall be liable to the latter for damages:
+        \n\n(15) The right of the accused against excessive bail;</string>
+
+    <string name="sec_14_law_ra_1">REPUBLIC ACT NO. 386</string>
+    <string name="sec_14_law_name_1">Civil Code of the Philippines</string>
+    <string name="sec_14_law_chap_1">CHAPTER II</string>
+    <string name="sec_14_law_chapsub_1">Human Relations</string>
+    <string name="sec_14_law_section_1"></string>
+    <string name="sec_14_law_secsub_1"></string>
+    <string name="sec_14_law_content_1">
+        ARTICLE 32. Any public officer or employee, or any private individual, who directly or indirectly obstructs, defeats, violates or in any manner impedes or
+        impairs any of the following rights and liberties of another person shall be liable to the latter for damages:
+        \n\n(16) The right of the accused to be heard by himself and counsel, to be informed of the nature and cause of the accusation against him, to have
+        a speedy and public trial, to meet the witnesses face to face, and to have compulsory process to secure the attendance of witness in his behalf;</string>
+
+    <string name="sec_14_law_ra_2">REPUBLIC ACT NO. 8493</string>
+    <string name="sec_14_law_name_2">Speedy Trial Act of 1998</string>
+    <string name="sec_14_law_chap_2">SECTION VI</string>
+    <string name="sec_14_law_chapsub_2">Time Limit for Trial</string>
+    <string name="sec_14_law_section_2"></string>
+    <string name="sec_14_law_secsub_2"></string>
+    <string name="sec_14_law_content_2">
+        In criminal cases involving persons charged of a crime, except those subject to the Rules on Summary Procedure, or where the penalty prescribed by law does
+        not exceed six (6) months imprisonment, or a fine of One thousand pesos (P1,000.00) or both, irrespective of other imposable penalties, the justice or judge
+        shall, after consultation with the public prosecutor and the counsel for the accused, set the case for continuous trial on a weekly or other short-term trial
+        calendar at the earliest possible time so as to ensure speedy trial. In no case shall the entire trial period exceed one hundred eighty (180) days from the
+        first day of trial, except as otherwise authorized by the Chief Justice of the Supreme Court pursuant to Sec. 3, Rule 22 of the Rules of Court</string>
+
+    <string name="sec_15_law_ra_1">REPUBLIC ACT NO. 386</string>
+    <string name="sec_15_law_name_1">Civil Code of the Philippines</string>
+    <string name="sec_15_law_chap_1">CHAPTER II</string>
+    <string name="sec_15_law_chapsub_1">Human Relations</string>
+    <string name="sec_15_law_section_1"></string>
+    <string name="sec_15_law_secsub_1"></string>
+    <string name="sec_15_law_content_1">
+        ARTICLE 32. Any public officer or employee, or any private individual, who directly or indirectly obstructs, defeats, violates or in any manner impedes or
+        impairs any of the following rights and liberties of another person shall be liable to the latter for damages:
+        \n\n(4) Freedom from arbitrary or illegal detention;</string>
+
+    <string name="sec_15_law_ra_2">ARTICLE NO. 3815, s. 1930</string>
+    <string name="sec_15_law_name_2">Revised Penal Code of the Philippines</string>
+    <string name="sec_15_law_chap_2">CHAPTER I</string>
+    <string name="sec_15_law_chapsub_2">Arbitrary Detention or Expulsion, Violation of Dwelling, Prohibition, Interruption, and Dissolution of Peaceful
+        Meetings and Crimes Against Religious Worship</string>
+    <string name="sec_15_law_section_2">SECTION IV</string>
+    <string name="sec_15_law_secsub_2">Crimes Against Religious Worship</string>
+    <string name="sec_15_law_content_2">
+        ARTICLE 124. Arbitrary Detention. — Any public officer or employee who, without legal grounds, detains a person, shall suffer:
+        \n\n1. The penalty of arresto mayor in its maximum period to prisión correccional in its minimum period, if the detention has not exceeded three days;
+        \n\n2. The penalty of prisión correccional in its medium and maximum periods, if the detention has continued more than three but not more than fifteen days;
+        \n\n3. The penalty of prisión mayor, if the detention has continued for more than fifteen days but not more than six months; and
+        \n\n4. That of reclusión temporal, if the detention shall have exceeded six months.
+    </string>
+
+    <string name="sec_16_law_ra_1">REPUBLIC ACT NO. 8493</string>
+    <string name="sec_16_law_name_1">Speedy Trial Act of 1998</string>
+    <string name="sec_16_law_chap_1">SECTION VI</string>
+    <string name="sec_16_law_chapsub_1">Time Limit for Trial</string>
+    <string name="sec_16_law_section_1"></string>
+    <string name="sec_16_law_secsub_1"></string>
+    <string name="sec_16_law_content_1">
+        In criminal cases involving persons charged of a crime, except those subject to the Rules on Summary Procedure, or where the penalty prescribed by law does
+        not exceed six (6) months imprisonment, or a fine of One thousand pesos (P1,000.00) or both, irrespective of other imposable penalties, the justice or judge
+        shall, after consultation with the public prosecutor and the counsel for the accused, set the case for continuous trial on a weekly or other short-term trial
+        calendar at the earliest possible time so as to ensure speedy trial. In no case shall the entire trial period exceed one hundred eighty (180) days from the
+        first day of trial, except as otherwise authorized by the Chief Justice of the Supreme Court pursuant to Sec. 3, Rule 22 of the Rules of Court</string>
+
+    <string name="sec_17_law_ra_1">REPUBLIC ACT NO. 386</string>
+    <string name="sec_17_law_name_1">Civil Code of the Philippines</string>
+    <string name="sec_17_law_chap_1">CHAPTER II</string>
+    <string name="sec_17_law_chapsub_1">Human Relations</string>
+    <string name="sec_17_law_section_1"></string>
+    <string name="sec_17_law_secsub_1"></string>
+    <string name="sec_17_law_content_1">
+        ARTICLE 32. Any public officer or employee, or any private individual, who directly or indirectly obstructs, defeats, violates or in any manner impedes or
+        impairs any of the following rights and liberties of another person shall be liable to the latter for damages:
+        \n\n(17) Freedom from being compelled to be a witness against one’s self, or from being forced to confess guilt, or from being induced by a promise of immunity or
+        reward to make such confession, except when the person confessing becomes a State witness;</string>
+
+    <string name="sec_18_law_ra_1">REPUBLIC ACT NO. 386</string>
+    <string name="sec_18_law_name_1">Civil Code of the Philippines</string>
+    <string name="sec_18_law_chap_1">CHAPTER II</string>
+    <string name="sec_18_law_chapsub_1">Human Relations</string>
+    <string name="sec_18_law_section_1"></string>
+    <string name="sec_18_law_secsub_1"></string>
+    <string name="sec_18_law_content_1">
+        ARTICLE 32. Any public officer or employee, or any private individual, who directly or indirectly obstructs, defeats, violates or in any manner impedes or
+        impairs any of the following rights and liberties of another person shall be liable to the latter for damages:
+        \n\n(14) The right to be free from involuntary servitude in any form;</string>
+
+    <string name="sec_18_law_ra_2">ARTICLE NO. 3815, s. 1930</string>
+    <string name="sec_18_law_name_2">Revised Penal Code of the Philippines</string>
+    <string name="sec_18_law_chap_2">CHAPTER I</string>
+    <string name="sec_18_law_chapsub_2">Arbitrary Detention or Expulsion, Violation of Dwelling, Prohibition, Interruption, and Dissolution of Peaceful
+        Meetings and Crimes Against Religious Worship</string>
+    <string name="sec_18_law_section_2">SECTION IV</string>
+    <string name="sec_18_law_secsub_2">Crimes Against Religious Worship</string>
+    <string name="sec_18_law_content_2">
+        ARTICLE 124. Arbitrary Detention. — Any public officer or employee who, without legal grounds, detains a person, shall suffer:
+        \n\n1. The penalty of arresto mayor in its maximum period to prisión correccional in its minimum period, if the detention has not exceeded three days;
+        \n\n2. The penalty of prisión correccional in its medium and maximum periods, if the detention has continued more than three but not more than fifteen days;
+        \n\n3. The penalty of prisión mayor, if the detention has continued for more than fifteen days but not more than six months; and
+        \n\n4. That of reclusión temporal, if the detention shall have exceeded six months.</string>
+
+    <string name="sec_19_law_ra_1">REPUBLIC ACT NO. 386</string>
+    <string name="sec_19_law_name_1">Civil Code of the Philippines</string>
+    <string name="sec_19_law_chap_1">CHAPTER II</string>
+    <string name="sec_19_law_chapsub_1">Human Relations</string>
+    <string name="sec_19_law_section_1"></string>
+    <string name="sec_19_law_secsub_1"></string>
+    <string name="sec_19_law_content_1">
+        ARTICLE 32. Any public officer or employee, or any private individual, who directly or indirectly obstructs, defeats, violates or in any manner impedes or
+        impairs any of the following rights and liberties of another person shall be liable to the latter for damages:
+        \n\n(18) Freedom from excessive fines, or cruel and unusual punishment, unless the same is imposed or inflicted in accordance with a statute which has not been judicially declared unconstitutional;</string>
+
+    <string name="sec_19_law_ra_2">ARTICLE NO. 3815, s. 1930</string>
+    <string name="sec_19_law_name_2">Revised Penal Code of the Philippines</string>
+    <string name="sec_19_law_chap_2">CHAPTER III</string>
+    <string name="sec_19_law_chapsub_2">Duration and Effect of Penalties</string>
+    <string name="sec_19_law_section_2">SECTION I</string>
+    <string name="sec_19_law_secsub_2">Duration of Penalties</string>
+    <string name="sec_19_law_content_2">
+        ARTICLE 27. Reclusión Perpetua. — Any person sentenced to any of the perpetual penalties shall be pardoned after undergoing the penalty for thirty years, unless such person by reason of his conduct or some
+        other serious cause shall be considered by the Chief Executive as unworthy of pardon.</string>
+
+
 </resources>

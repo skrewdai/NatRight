@@ -58,8 +58,6 @@ public class sec_Adapter extends RecyclerView.Adapter<sec_Adapter.MyViewHolder> 
                 public void onClick(View view) {
                     if (RecyclerViewInterface != null) {
                         int pos = getAdapterPosition();
-                        //int position = getAdapterPosition();
-                        //Toast.makeText(view.getContext(), "Position is: "+position, Toast.LENGTH_SHORT).show();
                         if (pos != RecyclerView.NO_POSITION) {
                             RecyclerViewInterface.onItemClick(pos);
                         }
